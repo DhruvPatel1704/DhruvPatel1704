@@ -77,13 +77,12 @@ Snowflake SnowPro Core
 
 | Repo | What it covers |
 |------|----------------|
-| [sql-practice](https://github.com/DhruvPatel1704/sql-practice) | Window functions, CTEs, query optimization, analytical patterns |
+| | [data-engineering-prep](https://github.com/DhruvPatel1704/data-engineering-prep) | SQL, Python, window functions, CTEs, pandas, pipeline patterns |
 | More added weekly | |
 
 ---
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DhruvPatel1704&theme=dark&hide_border=true)](https://github.com/DhruvPatel1704)
-
+[![GitHub Streak](https://streak-stats.demolab.com?user=DhruvPatel1704&theme=dark&hide_border=true)](https://github.com/DhruvPatel1704)
 ---
 
 *Every repo on this profile was built from scratch. No tutorials followed
