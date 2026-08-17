@@ -1,89 +1,39 @@
 # Dhruv Patel
 
-Data Engineer in the making. Currently deep in a structured 105-day build 
-covering the full modern DE stack — from SQL fundamentals to production RAG 
-pipelines on AWS.
+Applied ML and data engineer. I build end-to-end systems: data pipelines, backend services, and ML/LLM applications that run in production, not just in notebooks.
 
-MS Data Analytics @ Northeastern University, Boston  
-B.E. Information Technology  
-Open to Data Engineering Co-op and Full-time roles
+MS Data Analytics Engineering @ Northeastern University, Boston (GPA 3.92, Dec 2027)
+B.E. Information Technology
+Open to Data Engineering, ML Engineering, and Software Engineering co-op roles.
 
----
+### Stack
 
-## What I Build With
+**Data and pipelines:** Python, SQL, PySpark, Polars, Airflow, dbt, Kafka, Flink, Iceberg
+**Cloud and infra:** AWS, Snowflake, Docker, Terraform
+**ML and LLM:** PyTorch, LangChain, MLflow, FastAPI, pgvector
 
-**Data Engineering**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Flink](https://img.shields.io/badge/Flink-E6526F?style=flat&logo=apacheflink&logoColor=white)
+### Selected projects
 
-**Cloud and Infrastructure**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+**CareContext**: Clinical RAG over medical documents. LangChain, Gemini, and pgvector, served with FastAPI, evaluated with RAGAS.
 
-**AI and Data Layer**  
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+**CardioSignal**: 1D-CNN for ECG arrhythmia classification on PTB-XL. 0.89 macro AUC. PyTorch, FastAPI, Docker.
 
----
+**WildfireEWS**: Early-warning system for wildfire risk. GAT-LSTM over streaming sensor data with Kafka and Flink. 0.95 AUC.
 
-## What I'm Currently Building
+**AI Voice Assistant**: Voice agent with DPO fine-tuning on Whisper, served with vLLM, backed by a 26-test evaluation harness.
 
-Two end-to-end projects that will be live on AWS by end of summer.
+**Customer Data Platform**: 4 ML models plus NLP over 55K+ reviews, surfaced through a 7-page Power BI suite.
 
-**Project 1 — Real-Time Data Pipeline**  
-A production-grade batch and streaming pipeline built entirely from scratch.
-Kafka handles ingestion, PySpark processes and transforms at scale, Apache
-Iceberg manages the lakehouse layer, dbt models the business logic, and
-Snowflake serves as the warehouse. Orchestrated by Airflow, infrastructure
-provisioned via Terraform, CI/CD through GitHub Actions.
+**Evently**: Event-driven backend on Node.js, Redis, and AWS SQS. Sub-150ms at 10K concurrent users.
 
-**Project 2 — AI Data Pipeline**  
-An end-to-end document intelligence system. Apache Flink preprocesses
-incoming documents in real time, PySpark handles batch chunking, embeddings
-go into ChromaDB, and a LangChain RAG chain answers questions over the
-corpus. Served via FastAPI on EC2, experiments tracked in MLflow, pipeline
-evaluated using RAGAs.
+### Experience
 
----
+**Data Analyst / Engineer Intern, Blue Shark Solution** (Dec 2024 to Aug 2025)
+Python ETL pipelines, MongoDB, XGBoost and Random Forest models, Power BI dashboards.
 
-## Highlights
+**1st place, graduate-level data science hackathon**
+Medicare churn prediction, 84% ROC-AUC, built on Databricks and PySpark.
 
-Won a Data Science Hackathon competing against graduate-level teams.
-Prior hands-on experience building Python ETL pipelines, training ML models,
-and working with MongoDB and Power BI in a professional setting.
+### Currently
 
----
-
-## Certifications in Progress
-
-Working toward three industry certifications timed after building real
-projects with each technology, not before.
-
-AWS Certified Data Engineer Associate (DEA-C01)  
-Databricks Certified Apache Spark Developer  
-Snowflake SnowPro Core
-
----
-
-## Repositories
-
-| Repo | What it covers |
-|------|----------------|
-| | [data-engineering-prep](https://github.com/DhruvPatel1704/data-engineering-prep) | SQL, Python, window functions, CTEs, pandas, pipeline patterns |
-| More added weekly | |
-
----
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=DhruvPatel1704&theme=dark&hide_border=true)](https://github.com/DhruvPatel1704)
----
-
-*Every repo on this profile was built from scratch. No tutorials followed
-without something committed at the end of the same day.*
+Going deep on production data engineering: streaming ingestion, lakehouse modeling with Iceberg and dbt, orchestration with Airflow, and infrastructure as code on AWS. Certifications targeted once the projects behind them ship: AWS Data Engineer Associate, Databricks Spark Developer, Snowflake SnowPro Core.
